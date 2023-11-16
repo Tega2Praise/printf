@@ -79,7 +79,7 @@ int print_octal(va_list types, char buffer[],
 
 /**
  * print_hexadecimal - Prints unsigned number in hexadecimal notation
- * @types: Lista of arguments
+ * @types: Argument list
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width
@@ -119,12 +119,11 @@ int print_hexa_upper(va_list types, char buffer[],
  * @map_to: Array of values to map the number to
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
- * @flag_ch: Calculates active flags
- * @width: idth
+ * @flag_ch: Calculated active flags character
+ * @width: Width specification
  * @precision: Precision specification
  * @size: Size specifier
- * @size: Size specification
- * Return: Number of printed characters
+ * Return: Number of printed characters.
  */
 int print_hexa(va_list types, char map_to[], char buffer[],
 	int flags, char flag_ch, int width, int precision, int size)
