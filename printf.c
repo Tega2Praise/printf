@@ -3,10 +3,10 @@
 void print_buffer(char buffer[], int *buff_ind);
 
 /**
- * _printf - Printf function
- * @format: format.
+ * _printf - Printf function that produces output according to a format
+ * @format: String character.
  * by Tega and Azeez
- * Return: Printed chars.
+ * Return: The number of characters.
  */
 int _printf(const char *format, ...)
 {
