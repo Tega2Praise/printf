@@ -3,6 +3,7 @@
 /**
  * get_width - Function calculates the width for printing
  * @format: Formatted string to print the arguments.
+ * by Tega and Azeez
  * @i: List of arguments to be printed.
  * @list: Arguments list
  *
